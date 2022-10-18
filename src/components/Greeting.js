@@ -8,7 +8,6 @@ export default function Greeting() {
 
   useEffect(() => {
     dispatch(fetchGreeting());
-    // eslint-disable-next-line
   }, []);
   return (
     <div>
